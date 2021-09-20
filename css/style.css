@@ -41,8 +41,13 @@ a, a:hover{
     width: 100%;
     float: left;
 }
+.col-12 img{
+    border-radius: 20px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .col-4{
-    width: 30%;
+    width: 33.33%;
     float: left;
 }
 .menu{
@@ -79,7 +84,7 @@ a, a:hover{
     margin-bottom: 10px;
 }
 .online-section h1 span{
-    color: Red;
+    color: rgb(74, 74, 109);
 }
 .online-section p{
     font-size: 14px;
@@ -133,11 +138,11 @@ a, a:hover{
     float: left; 
      }  
 .aa{
-background-color: #FF7F50; }
+background-color: #f0c6b7; }
 .ab{
-background-color: #DAF7A6; } 
+background-color: #eafcc8; } 
 .ac{
-background-color: #ADD8E6; }
+background-color: #d3f0fa; }
 
 .inner-feature img{
      width: 100% ;
@@ -179,4 +184,30 @@ background-color: #ADD8E6; }
     font-weight: 700;
     letter-spacing: 3px;
 
+}
+.app h1{
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #357EC7;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.app h1:hover{
+    font-size: 75px;
+}
+.app p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #357EC7;
+    margin-bottom: 10px;
+    padding: 60px;
+    margin: 40px;
+   
+}
+.success-section h2{
+text-align: center;
+margin-bottom: 20px;
+padding: 10px;
 }
